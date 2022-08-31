@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+#thumbnailsContainer {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+#expandedImageContainer{
+    width: 100%;
+
+}
+
+.thumbnail {
+    width: 10vh;
+    margin-right: 2vh;
+    height: 10vh;
+}
+.thumbnail:hover {
+    opacity: .5;
+}
